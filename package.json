@@ -1,21 +1,31 @@
 {
-  "name": "deadbeef",
-  "displayName": "deadbeef",
-  "description": "dark colour theme designed to work well with C/++ Rust and Python",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.84.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "deadbeef",
-        "uiTheme": "vs-dark",
-        "path": "./themes/deadbeef-color-theme.json"
-      }
-    ]
-  }
+    "name": "deadbeef",
+    "displayName": "0xDEADBEEF",
+    "description": "dark colour theme designed to work well with C/++ Rust and Python",
+    "publisher": "prelly95",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.84.0"
+    },
+    "icon": "icons/deadbeef-vsc-icon.png",
+    "author": {
+        "name": "Pat Prell",
+        "email": "prelly95@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/Prelly95/deadbeef",
+        "type": "git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "deadbeef",
+                "uiTheme": "vs-dark",
+                "path": "./themes/deadbeef-color-theme.json"
+            }
+        ]
+    }
 }
